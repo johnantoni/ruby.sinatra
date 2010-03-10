@@ -47,19 +47,19 @@ end
 get "/googlehostedservice.html" do
   response.headers['Cache-Control'] = "public, max-age=86400"
   content_type 'text/plain', :charset => 'utf-8'
-  "googlefffffffff4f889cc"
+  "googlekey"
 end
 
 # Google Sitemap Validator
-get "/google5211c1682bfa1956.html" do
+get "/google1234567890.html" do
   response.headers['Cache-Control'] = "public, max-age=86400"
   content_type 'text/plain', :charset => 'utf-8'
   ""
 end
 
 # Yahoo Web Master Tools validator
-get "/y_key_2d6e2f2b210a1cc7.html" do
+get "/y_key_1234567890.html" do
   response.headers['Cache-Control'] = "public, max-age=86400"
   content_type 'text/plain', :charset => 'utf-8'
-  '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN"><HTML><HEAD><TITLE></TITLE><BODY><!-- 05dacd3223048821  --></BODY></HTML>'
+  '<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN"><HTML><HEAD><TITLE></TITLE><BODY><!-- 1234567890  --></BODY></HTML>'
 end
